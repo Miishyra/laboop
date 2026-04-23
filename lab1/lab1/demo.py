@@ -1,4 +1,4 @@
-from model import Server
+from lab1.lab1.model import Server
 
 def print_header(text):
     print("\n" + "="*60)
