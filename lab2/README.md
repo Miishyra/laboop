@@ -27,7 +27,7 @@ IT-инфраструктура: Server → ServerCollection
 - `demo.py` - демонстрация
 
 ## Демонстрация работы
-![Скриншот 1](lab2/images/im1.png)
+![alt text](images/im1.png)
 **Сценарий 1: Просмотр серверов**
 
 - Вывод коллекции через `print(col)`
