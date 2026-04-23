@@ -1,0 +1,30 @@
+﻿# Bytecode и кэш Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Виртуальное окружение
+venv/
+env/
+.venv
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Логи и базы данных
+*.log
+*.db
+
+# mypy
+.mypy_cache/
+
+# Файлы окружения
+.env
