@@ -24,8 +24,8 @@
 - ServerCollection из ЛР-2
 
 ## Демонстрация
-![Скриншот 1](lab3/images/i1.png)
-![Скриншот 2](lab3/images/i2.png)
+![alt text](images/i1.png)
+![alt text](images/i2.png)
 
 ### Сценарий 1: Разные типы в одной коллекции
 - Создаются объекты WebServer и DatabaseServer

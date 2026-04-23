@@ -1,5 +1,5 @@
-from model import Server
-from collection import ServerCollection
+from src.lab2.model import Server
+from src.lab2.collection import ServerCollection
 
 # СОЗДАНИЕ ОБЪЕКТОВ
 s1 = Server("Web", "192.168.1.1", "Linux", 4, 16)

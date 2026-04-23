@@ -1,5 +1,5 @@
 from datetime import datetime
-from validation import validate_name, validate_ip, validate_os, validate_cpu, validate_ram
+from src.lab2.validation import validate_name, validate_ip, validate_os, validate_cpu, validate_ram
 
 class Server:
     available_os = ['Linux', 'Windows', 'MacOS']

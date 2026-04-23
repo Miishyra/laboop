@@ -1,4 +1,4 @@
-from model import Server
+from src.lab2.model import Server
 
 class ServerCollection:
     """Контейнер для хранения объектов Server."""

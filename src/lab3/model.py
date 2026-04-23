@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from lab3.base import Server
+from src.lab3.base import Server
 
 class WebServer(Server):
     def __init__(self, name, ip, cpu, ram, domain):
