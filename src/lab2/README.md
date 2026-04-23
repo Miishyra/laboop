@@ -27,9 +27,14 @@ IT-инфраструктура: Server → ServerCollection
 - `demo.py` - демонстрация
 
 ## Демонстрация работы
+<<<<<<< HEAD:src/lab2/README.md
 ![alt text](images/im1.png)
 **Сценарий 1: Просмотр серверов**
+=======
+>>>>>>> 997a036dff06e2f05480afed952ea09a4d843d19:lab2/README.md
 
+**Сценарий 1: Просмотр серверов**
+![alt text](images/im1.png)
 - Вывод коллекции через `print(col)`
 - Подсчет серверов через `len(col)`
 - Показывает работу `__str__` и `__len__`
