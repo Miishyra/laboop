@@ -27,7 +27,6 @@ IT-инфраструктура: Server → ServerCollection
 - `demo.py` - демонстрация
 
 ## Демонстрация работы
-<<<<<<< HEAD:src/lab2/README.md
 ![alt text](images/im1.png)
 **Сценарий 1: Просмотр серверов**
 =======
