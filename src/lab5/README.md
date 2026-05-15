@@ -27,7 +27,7 @@
 
 ## Демонстрация (3 сценария)
 ![alt text](images/i1.png)
-![alt text](image.png)
+![alt text](images/i2.png)
 1. Цепочка `filter → sort → apply`
 2. Замена стратегии (разные фильтры)
 3. Callable-объект `Counter`
