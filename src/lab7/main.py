@@ -1,7 +1,7 @@
 import json
 import os
 
-# ===== КЛАСС SERVER (прямо здесь) =====
+# ===== КЛАСС SERVER =====
 class Server:
     total_servers = 0
     
@@ -188,11 +188,11 @@ class CLI:
             
             server = Server(name, ip, cpu, ram)
             self._app.add(server)
-            print(f"✅ Сервер {name} добавлен")
+            print(f" Сервер {name} добавлен")
         except DuplicateError as e:
-            print(f"❌ {e}")
+            print(f" {e}")
         except ValueError:
-            print("❌ Ошибка: введите число")
+            print(" Ошибка: введите число")
     
     def _show_all(self):
         print("\n--- ВСЕ СЕРВЕРЫ ---")
@@ -249,13 +249,13 @@ class CLI:
         
         if choice == "1":
             self._app.sort(lambda s: s.name)
-            print("✅ Отсортировано по имени")
+            print(" Отсортировано по имени")
         elif choice == "2":
             self._app.sort(lambda s: s.get_score())
-            print("✅ Отсортировано по оценке")
+            print(" Отсортировано по оценке")
         elif choice == "3":
             self._app.sort(lambda s: s.connections)
-            print("✅ Отсортировано по подключениям")
+            print(" Отсортировано по подключениям")
         else:
             print("Неверный выбор")
             return
@@ -274,9 +274,9 @@ class CLI:
         if confirm.lower() == "y":
             try:
                 self._app.remove(ip)
-                print("✅ Удалён")
+                print(" Удалён")
             except NotFoundError as e:
-                print(f"❌ {e}")
+                print(f" {e}")
         else:
             print("Отменено")
 
