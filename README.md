@@ -5,4 +5,4 @@
 ## Лабороторная работа №4 - https://github.com/Miishyra/laboop/tree/master/src/lab4
 ## Лабороторная работа №5 - https://github.com/Miishyra/laboop/tree/master/src/lab5
 ## Лабороторная работа №6 - https://github.com/Miishyra/laboop/tree/master/src/lab6
-## Лабороторная работа №6 - https://github.com/Miishyra/laboop/tree/master/src/lab7
+## Лабороторная работа №7 - https://github.com/Miishyra/laboop/tree/master/src/lab7
